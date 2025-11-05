@@ -43,7 +43,7 @@ function NoProjects() {
 
 
 
-function formatDate(d): string {
+function formatDate(d: string): string {
     const aux = d.split("T")
     const day = aux[0]
     const full_hour = aux[1].split(':')
